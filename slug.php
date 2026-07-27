@@ -1,0 +1,1 @@
+/usr/home/muppet/public_html/blog/wp-content/themes/Less/slug.php

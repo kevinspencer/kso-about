@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://kevinspencer.org/about [R=301,L]
+
+# don't serve the git working tree if this dir is a symlinked repo checkout
+RedirectMatch 404 /\.git
